@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(../img/resort.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slogan {
+  margin: 15% 0 0 10%;
+  padding: 20px;
+  border-radius: 30px;
+  float: left;
+  color: white;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+.login {
+  margin: 4% 8% 0 0;
+  padding: 20px;
+  border-radius: 30px;
+  float: right;
+  background-color: white;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  box-shadow: 1px 2px 5px grey;
+}
+.login h1 {
+  color: #0d326e;
+  font-family: "Lobster", cursive;
+  font-weight: 100;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.admin-img {
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+.field {
+  margin-top: 25px;
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: #00a1d7;
+  border-style: none none solid none;
+  border-width: thin;
+  outline: none;
+}
+.btn {
+  height: 35px;
+  width: 30%;
+  margin-top: 25px;
+  border-radius: 10px;
+  color: white;
+  background-color: #00a1d7;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.btn:hover {
+  background-color: #0484af;
+  box-shadow: 1px 2px 2px #197a9b;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.anchor {
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+}
